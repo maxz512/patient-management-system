@@ -16,9 +16,36 @@ jobs:
     - name: SSH into EC2 and deploy
       uses: appleboy/ssh-action@v0.1.2
       with:
-        host: ${{ secrets.EC2_HOST }}
+        host: ${{ secrets.98.84.104.105 }}
         username: ec2-user
-        key: ${{ secrets.EC2_SSH_KEY }}
+        key: ${{ secrets.-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAylA3xPEq9XL9hRGjmdVphi1/zj6QqRQNTIp4QbbVXC2uEMAP
+kDFJnO2TPNY+IRZMHti3VMtJ+c/ioB7K2HYP1aL23c3hsw68pfvdZyPdgGq7Iktl
+EPw8pLBCeavGNYDnuyGxjWLpdIhQmMEoLKddTBwXDVtXsPD5jNj6mkYKn38QKuaD
+sYb4kvRZ9vPOr0Na9Hv2erHuvYFN/WGeBmpWRjwf92ixtYDMetSZ7S2kSzZ/PwYl
+xpynUoJNV5yU1RVFv71ZR5yJBAv+KYtWtRs/JsDyKsJhDgZs7w4ecvepyQ3LlhYJ
+JBw+/Rf0UfeUMIGRgYKlwXglOqZ2dEBqmwxzcwIDAQABAoIBAFN5z9kJ7UDDRom+
+YnOZ0+WSJnbR59xrsqUPSVlL+DMFghnVNVa4j3gZqrPiblY2ngfoQZTSIF7cANUy
+f13bMONkT1nrliHMhdgy2QKykLVo1HftBfGBMgB93Z/YWXtACd1zpJAC7PKxQBgX
+Mt1h3SQHPxe6xa7zbvRHnvdCySVPil+gCPmceFV9/xFQ7hEtNA1IOWH81wdFDjCW
+K9/BaEKOlMTbEuHxTYeISo/MoHvbu3ASz/nJhd5aqmhU+5at9+iVDYpUZ04/L23X
+aUdd8DgT7BTDq4rxaDRJCXzPCNiyz1QvHKcaqL1kG6zn1OEbgUmBMuPLXx8RFlCi
+stk+OvkCgYEA/P9QfDhzoZA5IEmgxkJdmzQG1C67hIiCLJfARaudN0xVezUy8can
+EDat8qiSHehBgTgdvaCq2gTj10rJvK5ITurL08BQHbi2LfG1rdyzaYdt80S5Nese
+Hi3Yg6CU/ImQlO3ObujMcAWVdGUwt9Y0lCYkVv8aMkTe3If+xLEmQhUCgYEAzLbo
+2ek/P7P4q8WKjcmYx4AxNe3zvEuVljl2eUXDPyVPI28P1iIaivG0I22gb4mvVJ1u
+tOu3lSBmJy3+HoYU7+Czs0KudFazV4pogLAe+sL8RoeYJbS1+DpxX205eD6Eau9M
+OVV0+lD018BJO/sFKLTpw4unc9TmAYiTwHDoqWcCgYEAq5APak11zEfbFVQYnJmA
+lLDxOI4AR12yuL6nehdoY4l2JjjrNR17SPlreDRr8bAAS7pcIK2FbpcGUoa6yyJ8
+kleSpSOysJUDpaBVjXMujw9xthgSaMfqApkgTBJnNeGrk/K3nGptyEFhGi9MnD28
+JgK/fec8Qn6FipMGZyeiRAkCgYEAh8m/1GNZ99hZ1x52FCynsZU/jyUiKkD8nSPK
+iRCUPPtzbe6KU6BVeNpwgZuC8tkiOn8e4tUD9eACwnRIfliz5JVovTw62aJ03VlK
+jinEstLJYcMpUcF3forNjt21ZCQb046dQd6EdFFkxwOd0DJmLqUp9fJZhYSveE7u
+qpR6T3sCgYEAoTNMyaUqozsL4kIPWN9oeTKdDzzeLjKJUYkcLQ+cxc6Nn5bcZUcg
+Df8qSGnikq4l9ZPzp82oJDrmp19PFw1AHorUJAWUGyi9X/TI36QY8XlRQk9kjV7A
+5wUBYhK+iqYnmS0Q0/NCzRrsLSpjbnbyOLzHeK0WLyCRuoOGU4+C1+s=
+-----END RSA PRIVATE KEY-----
+}}
         script: |
           cd /path/to/your/app
           git pull origin main
